@@ -8,7 +8,7 @@
       {{#each burgers}} 
         {{#unless this.devoured}}
         <pre>{{this.id}}. {{this.burger_name}}</pre>
-        <form method="POST">
+        <form >
           <input type="text" value={{this.id}}>
           <button type="submit">Devour</button>
         </form>
